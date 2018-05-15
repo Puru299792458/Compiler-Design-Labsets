@@ -12,7 +12,7 @@ char prod[10][10],ter[10],nonT[10],first[10][10],follow[10][10];
 
 void addToTer(char c){
     int i;
-    for(i=0;i<ter[i]!='\0';i++){
+    for(i=0;ter[i]!='\0';i++){
         if(ter[i]==c){
             return ;
         }
